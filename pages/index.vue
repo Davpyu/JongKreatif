@@ -75,7 +75,7 @@
 					Cupcake danish tiramisu powder soda ginger cake. Dessert carrot cake tartsweet marzipan for fruitcake.
 				</p>
 			</div>
-			<div class="mt-4 w-75 row">
+			<div class="mt-4 row">
 				<div class="col">
 					<img src="~/assets/img/adrol.png" alt="Adroll">
 				</div>
