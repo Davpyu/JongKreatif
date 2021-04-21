@@ -121,6 +121,31 @@
 				</div>
 			</div>
 		</div>
+		<div class="bg-danger">
+			<div class="container p-5 d-flex justify-content-center">
+				<h2 class="text-light text-baloo">
+					Apa Kata Mereka Tentang JongKreatif!
+				</h2>
+				<div class="d-flex flex-column align-items-start">
+					<div class="row">
+						<div class="p-3 ml-2 bg-white rounded col" v-for="n in 2" :key="n">
+							<img src="~/assets/img/Rating.png" alt="rating">
+							<p class="mt-2 text-nunito">
+								Cupcake danish tiramisu powder soda ginger cake. Dessert carrot cake tartsweet marzipan for fruitcake.
+							</p>
+							<span class="mt-4 text-baloo font-weight-bold">
+								- Sean Parks
+							</span>
+						</div>
+					</div>
+					<div class="mt-4 d-flex justify-content-center">
+						<img src="~/assets/img/dot-filled.png" alt="active-dot">
+						<img class="mx-2" src="~/assets/img/dot-unfilled.png" alt="active-dot">
+						<img src="~/assets/img/dot-unfilled.png" alt="active-dot">
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="container p-5 d-flex">
 			<div class="d-flex flex-column justify-content-center">
 				<h3 class="text-center text-baloo font-weight-bolder">
