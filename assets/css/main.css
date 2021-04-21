@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Baloo+2&family=Nunito&family=Roboto&display=swap');
+
+.text-arvo {
+    font-family: 'Arvo', serif;
+}
+
+.text-baloo {
+    font-family: 'Baloo 2', cursive;
+}
+
+.text-nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.text-roboto {
+    font-family: 'Roboto', sans-serif;
+}
