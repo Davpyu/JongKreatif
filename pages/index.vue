@@ -121,6 +121,32 @@
 				</div>
 			</div>
 		</div>
+		<div class="container p-5 d-flex">
+			<div class="d-flex flex-column justify-content-center">
+				<h3 class="text-center text-baloo font-weight-bolder">
+					Apa Saja yang Anda Butuhkan?
+				</h3>
+				<div class="d-flex flex-column align-items-start">
+					<Collapsable
+						v-for="(item, index) in qnaLeft"
+						:key="index"
+						:item="item"
+					/>
+				</div>
+			</div>
+			<div class="d-flex flex-column justify-content-center">
+				<h3 class="text-center text-baloo font-weight-bolder">
+					Bagaimana Cara Tergabung?
+				</h3>
+				<div class="d-flex flex-column align-items-end">
+					<Collapsable
+						v-for="(item, index) in qnaRight"
+						:key="index"
+						:item="item"
+					/>
+				</div>
+			</div>
+		</div>
 		<Jumbotron />
 	</div>
 </template>
@@ -130,6 +156,7 @@ import Carousel from '../components/Carousel'
 import Jumbotron from '../components/Jumbotron'
 import BenefitGrid from '../components/BenefitGrid'
 import Card from '../components/Card'
+import Collapsable from '../components/Collapsable'
 
 export default {
 	data() {
@@ -150,6 +177,46 @@ export default {
 					title: 'Jago Jadi Konten Kreator!',
 					description: 'Muffin lemon drops toffee. Pudding tootsie roll brownie jelly beans.'
 				}
+			],
+			qnaLeft : [
+				{
+					active: true,
+					position: 'left',
+					question: 'Siapa saja yang boleh mendaftar di JongKreatif?',
+					answer: 'Seleksi ini terbuka dan dapat diikuti oleh seluruh sekolah yang memiliki fokus pada sektor teknologi informasi dan komputer, selama tidak sedang mendapatkan bantuan lain dari pemerintah.'
+				},
+				{
+					active: false,
+					position: 'left',
+					question: 'Apa saja yang didukung dan diberikan oleh JongKreatif?',
+					answer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat tempore ea temporibus labore dolores vitae eveniet iure porro sint deserunt facilis assumenda, officiis adipisci reprehenderit'
+				},
+				{
+					active: false,
+					position: 'left',
+					question: 'Apa saja yang didukung dan diberikan oleh JongKreatif?',
+					answer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat tempore ea temporibus labore dolores vitae eveniet iure porro sint deserunt facilis assumenda, officiis adipisci reprehenderit'
+				}
+			],
+			qnaRight: [
+				{
+					active: true,
+					position: 'right',
+					question: 'Bagaimana alur proses seleksi di JongKreatif?',
+					answer: 'Ada dua tahapan seleksi yang dilakukan, yaitu seleksi administrasi berdasarkan dokumen yang kamu unggah dan seleksi interview yang dilakukan setelah kamu dinyatakan lolos seleksi administrasi.'
+				},
+				{
+					active: false,
+					position: 'right',
+					question: 'Apa saja syarat dan ketentuan dalam pengajuan proposal?',
+					answer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat tempore ea temporibus labore dolores vitae eveniet iure porro sint deserunt facilis assumenda, officiis adipisci reprehenderit'
+				},
+				{
+					active: false,
+					position: 'right',
+					question: 'Kapan batas terakhir untuk pengajuan proposal?',
+					answer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat tempore ea temporibus labore dolores vitae eveniet iure porro sint deserunt facilis assumenda, officiis adipisci reprehenderit'
+				},
 			]
 		}
 	},
@@ -157,7 +224,8 @@ export default {
 		Carousel,
 		Jumbotron,
 		BenefitGrid,
-		Card
+		Card,
+		Collapsable
 	}
 }
 </script>

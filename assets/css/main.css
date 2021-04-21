@@ -16,6 +16,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.text-opacity-10 {
+    opacity: 0.1;
+}
+
 .text-opacity-50 {
     opacity: 0.5;
 }
