@@ -7,7 +7,10 @@
                 </div>
                 <div class="col">
                     <p class="text-nunito">Cupcake danish tiramisu powder soda ginger cake. Dessert carrot cake tartsweet. Cupcake danish tiramisu powder soda ginger cake. Dessert carrot cake tartsweet marzipan for fruitcake.</p>
-                    <b-button variant="light" class="text-danger font-weight-bold text-baloo" href="#">Daftar Sekarang</b-button>
+                    <b-button variant="light" class="text-black font-weight-bold text-baloo" href="#">
+                        Daftar Sekarang
+                        <img class="ml-2" src="~/assets/img/arrow.png" alt="arrow">
+                    </b-button>
                 </div>
             </div>
         </div>

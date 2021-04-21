@@ -18,6 +18,7 @@
 					</p>
 					<span class="font-weight-bold text-baloo">
 						Pelajari Lebih
+						<img class="ml-1" src="~/assets/img/arrow.png" alt="arrow">
 					</span>
 				</div>
 				<div class="col">
@@ -29,6 +30,7 @@
 					</p>
 					<span class="font-weight-bold text-baloo">
 						Pelajari Lebih
+						<img class="ml-1" src="~/assets/img/arrow.png" alt="arrow">
 					</span>
 				</div>
 				<div class="col">
@@ -38,8 +40,9 @@
 					<p class="mt-3 text-nunito">
 						Pelatihan pembuatan konten bersertifikat, langsung dari content creator dan inovator berpengalaman
 					</p>
-					<span class="font-weight-bold text-buloo">
+					<span class="font-weight-bold text-baloo">
 						Pelajari Lebih
+						<img class="ml-1" src="~/assets/img/arrow.png" alt="arrow">
 					</span>
 				</div>
 			</div>
