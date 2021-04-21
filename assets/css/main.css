@@ -16,10 +16,36 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.text-8 {
+    font-size: 2rem;
+}
+
 .text-opacity-10 {
     opacity: 0.1;
 }
 
 .text-opacity-50 {
     opacity: 0.5;
+}
+
+.rounded-full {
+    border-radius: 125px;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.grid-cols-1 {
+	grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-gap-4 {
+    gap: 1rem;
+}
+
+@media (min-width: 992px) {
+    .grid-lg-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }

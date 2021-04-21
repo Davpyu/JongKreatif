@@ -149,7 +149,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="container p-5 d-flex">
+		<div class="container grid-cols-1 p-5 d-grid grid-gap-4 grid-lg-cols-2">
 			<div class="d-flex flex-column justify-content-center">
 				<h3 class="text-center text-baloo font-weight-bolder">
 					Apa Saja yang Anda Butuhkan?

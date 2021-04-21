@@ -14,11 +14,11 @@
                                 About JongKreatif
                             </h5>
                             <div class="mt-3 text-center text-opacity-50 d-flex flex-column justify-content-center">
-                                <nuxt-link to="/about">About Us</nuxt-link>
-                                <nuxt-link to="/faq">FAQ</nuxt-link>
-                                <nuxt-link to="/tos">Terms of Service</nuxt-link>
-                                <nuxt-link to="/contact">Contact Us</nuxt-link>
-                                <nuxt-link to="/sitemap">Sitemap</nuxt-link>
+                                <nuxt-link class="text-light" to="/about">About Us</nuxt-link>
+                                <nuxt-link class="text-light" to="/faq">FAQ</nuxt-link>
+                                <nuxt-link class="text-light" to="/tos">Terms of Service</nuxt-link>
+                                <nuxt-link class="text-light" to="/contact">Contact Us</nuxt-link>
+                                <nuxt-link class="text-light" to="/sitemap">Sitemap</nuxt-link>
                             </div>
                         </div>
                         <div class="col d-flex flex-column justify-content-center text-light">
