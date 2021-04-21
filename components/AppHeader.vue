@@ -1,14 +1,14 @@
 <template>
     <div>
         <b-navbar toggleable="lg" variant="light" fixed="top">
-            <div class="mx-auto w-75 d-flex">
-                <b-navbar-brand href="#" class="font-weight-bold">JongKreatif</b-navbar-brand>
+            <div class="container d-flex">
+                <b-navbar-brand href="#" class="font-weight-bolder text-arvo text-danger">JongKreatif</b-navbar-brand>
 
                 <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
                 <b-collapse id="nav-collapse" is-nav>
 
-                    <b-navbar-nav class="ml-auto">
+                    <b-navbar-nav class="ml-auto text-nunito">
                         <b-nav-item class="mr-3">
                             <nuxt-link to="/" class="font-weight-bold" active-class="text-danger">Home</nuxt-link>
                         </b-nav-item>

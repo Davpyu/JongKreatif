@@ -13,21 +13,21 @@
             @sliding-end="onSlideEnd"
         >
             <b-carousel-slide img-blank img-blank-color="red">
-                <h1 class="text-white">Build Your Experience</h1>
-                <p class="text-white">Build better customer relationships easily messaging that provides a more personal experience for you and your customers.</p>
-                <button type="button" class="rounded text-danger btn btn-light">Get to Know</button>
+                <h1 class="text-white text-baloo font-weight-bolder">Build Your Experience</h1>
+                <p class="text-white text-nunito">Build better customer relationships easily messaging that provides a more personal experience for you and your customers.</p>
+                <b-button variant="light" class="text-danger text-baloo">Get to Know</b-button>
             </b-carousel-slide>
 
             <b-carousel-slide img-blank img-blank-color="red">
-                <h1 class="text-white">Build Your Experience</h1>
-                <p class="text-white">Build better customer relationships easily messaging that provides a more personal experience for you and your customers.</p>
-                <button type="button" class="rounded text-danger btn btn-light">Get to Know</button>
+                <h1 class="text-white text-baloo font-weight-bolder">Build Your Experience</h1>
+                <p class="text-white text-nunito">Build better customer relationships easily messaging that provides a more personal experience for you and your customers.</p>
+                <b-button variant="light" class="text-danger text-baloo">Get to Know</b-button>
             </b-carousel-slide>
 
             <b-carousel-slide img-blank img-blank-color="red">
-                <h1 class="text-white">Build Your Experience</h1>
-                <p class="text-white">Build better customer relationships easily messaging that provides a more personal experience for you and your customers.</p>
-                <button type="button" class="rounded text-danger btn btn-light">Get to Know</button>
+                <h1 class="text-white text-baloo font-weight-bolder">Build Your Experience</h1>
+                <p class="text-white text-nunito">Build better customer relationships easily messaging that provides a more personal experience for you and your customers.</p>
+                <b-button variant="light" class="text-danger text-baloo">Get to Know</b-button>
             </b-carousel-slide>
         </b-carousel>
     </div>
