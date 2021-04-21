@@ -1,73 +1,58 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        JongKreatif
+  <div>
+    <Carousel />
+    <div class="container p-5">
+      <h1 class="text-center font-weight-bold">
+        Program JongKreatif
       </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+      <p class="mt-2 text-center">
+        Cupcake danish tiramisu powder soda ginger cake. Dessert carrot cake tartsweet marzipan for fruitcake.
+      </p>
+      <div class="p-3 mt-4 text-center d-flex">
+        <div>
+          <h2 class="font-weight-bold text-danger">
+            JongKoding
+          </h2>
+          <p class="mt-3">
+            Pelatihan pemrograman bersertifikat, langsung dari developer dan inovator berpengalaman
+          </p>
+          <span class="font-weight-bold">
+            Pelajari Lebih
+          </span>
+        </div>
+        <div>
+          <h2 class="font-weight-bold text-warning">
+            JongDesain
+          </h2>
+          <p class="mt-3">
+            Pelatihan desain grafis, video, dan UIUX bersertifikat, langsung dari desainer dan inovator berpengalaman
+          </p>
+          <span class="font-weight-bold">
+            Pelajari Lebih
+          </span>
+        </div>
+        <div>
+          <h2 class="font-weight-bold text-info">
+            JongKonten
+          </h2>
+          <p class="mt-3">
+            Pelatihan pembuatan konten bersertifikat, langsung dari content creator dan inovator berpengalaman
+          </p>
+          <span class="font-weight-bold">
+            Pelajari Lebih
+          </span>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+import Carousel from '../components/Carousel'
+
+export default {
+  components: {
+    Carousel
+  }
+}
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
