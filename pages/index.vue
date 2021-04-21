@@ -8,8 +8,8 @@
 			<p class="mt-2 text-center">
 				Cupcake danish tiramisu powder soda ginger cake. Dessert carrot cake tartsweet marzipan for fruitcake.
 			</p>
-			<div class="p-3 mt-4 text-center d-flex">
-				<div>
+			<div class="p-3 mt-4 text-center row">
+				<div class="col">
 					<h2 class="font-weight-bold text-danger">
 						JongKoding
 					</h2>
@@ -20,7 +20,7 @@
 						Pelajari Lebih
 					</span>
 				</div>
-				<div>
+				<div class="col">
 					<h2 class="font-weight-bold text-warning">
 						JongDesain
 					</h2>
@@ -31,7 +31,7 @@
 						Pelajari Lebih
 					</span>
 				</div>
-				<div>
+				<div class="col">
 					<h2 class="font-weight-bold text-info">
 						JongKonten
 					</h2>
@@ -41,6 +41,28 @@
 					<span class="font-weight-bold">
 						Pelajari Lebih
 					</span>
+				</div>
+			</div>
+		</div>
+		<div class="bg-danger">
+			<div class="container p-5">
+				<div class="p-3 text-center text-white row">
+					<div class="col">
+						<h1 class="font-weight-bold">1040</h1>
+						<span>Students</span>
+					</div>
+					<div class="col">
+						<h1 class="font-weight-bold">105</h1>
+						<span>Schools</span>
+					</div>
+					<div class="col">
+						<h1 class="font-weight-bold">1030</h1>
+						<span>Projects</span>
+					</div>
+					<div class="col">
+						<h1 class="font-weight-bold">10</h1>
+						<span>Affiliates Industries</span>
+					</div>
 				</div>
 			</div>
 		</div>
