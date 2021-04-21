@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-navbar toggleable="lg" variant="light">
+        <b-navbar toggleable="lg" variant="light" fixed="top">
             <div class="mx-auto w-75 d-flex">
                 <b-navbar-brand href="#" class="font-weight-bold">JongKreatif</b-navbar-brand>
 
