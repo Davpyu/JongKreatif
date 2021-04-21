@@ -15,3 +15,7 @@
 .text-roboto {
     font-family: 'Roboto', sans-serif;
 }
+
+.text-opacity-50 {
+    opacity: 0.5;
+}
