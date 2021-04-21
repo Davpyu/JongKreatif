@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-dark">
-        <div class="container p-5 my-5">
+    <div class="p-3 bg-dark">
+        <div class="container p-5">
             <div class="row">
                 <div class="col-4 text-light">
                     <h2 class="text-arvo font-weight-bolder">
