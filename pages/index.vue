@@ -66,6 +66,30 @@
 				</div>
 			</div>
 		</div>
+		<div class="container p-5 text-center">
+			<div class="mx-auto w-75">
+				<h2 class="font-weight-bold">
+					Banyak Industri Telah Berafiliasi dengan Kami
+				</h2>
+				<p class="mt-3">
+					Cupcake danish tiramisu powder soda ginger cake. Dessert carrot cake tartsweet marzipan for fruitcake.
+				</p>
+			</div>
+			<div class="mt-4 w-75 row">
+				<div class="col">
+					<img src="~/assets/img/adrol.png" alt="Adroll">
+				</div>
+				<div class="col">
+					<img src="~/assets/img/segment.png" alt="Segment">
+				</div>
+				<div class="col">
+					<img src="~/assets/img/sendgrid.png" alt="SendGrid">
+				</div>
+				<div class="col">
+					<img src="~/assets/img/toast.png" alt="Toast">
+				</div>
+			</div>
+		</div>
 		<Jumbotron />
 	</div>
 </template>
