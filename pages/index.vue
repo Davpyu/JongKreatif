@@ -66,15 +66,18 @@
 				</div>
 			</div>
 		</div>
+		<Jumbotron />
 	</div>
 </template>
 
 <script>
 import Carousel from '../components/Carousel'
+import Jumbotron from '../components/Jumbotron'
 
 export default {
 	components: {
-		Carousel
+		Carousel,
+		Jumbotron
 	}
 }
 </script>
