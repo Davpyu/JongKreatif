@@ -27,7 +27,7 @@
                         <b-nav-item class="mr-3">
                             <nuxt-link to="/gallery" class="font-weight-bold text-dark" active-class="text-danger">Gallery</nuxt-link>
                         </b-nav-item>
-                        <b-nav-item class="px-2 rounded-full btn-danger">
+                        <b-nav-item class="px-2 rounded-4xl btn-danger">
                             <nuxt-link to="/login" class="text-white font-weight-bold">Sign In</nuxt-link>
                         </b-nav-item>
                     </b-navbar-nav>

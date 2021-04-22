@@ -15,7 +15,7 @@
                     <div class="w-75">
                         <p class="text-nunito">Build better customer relationships easily messaging that provides a more personal experience for you and your customers.</p>
                     </div>
-                    <b-button variant="light" class="rounded-full text-danger text-baloo font-weight-bolder">Get to Know</b-button>
+                    <b-button variant="light" class="rounded-4xl text-danger text-baloo font-weight-bolder">Get to Know</b-button>
                 </div>
             </div>
 
@@ -25,7 +25,7 @@
                     <div class="w-75">
                         <p class="text-nunito">Build better customer relationships easily messaging that provides a more personal experience for you and your customers.</p>
                     </div>
-                    <b-button variant="light" class="rounded-full text-danger text-baloo font-weight-bolder">Get to Know</b-button>
+                    <b-button variant="light" class="rounded-4xl text-danger text-baloo font-weight-bolder">Get to Know</b-button>
                 </div>
             </div>
 
@@ -35,7 +35,7 @@
                     <div class="w-75">
                         <p class="text-nunito">Build better customer relationships easily messaging that provides a more personal experience for you and your customers.</p>
                     </div>
-                    <b-button variant="light" class="rounded-full text-danger text-baloo font-weight-bolder">Get to Know</b-button>
+                    <b-button variant="light" class="rounded-4xl text-danger text-baloo font-weight-bolder">Get to Know</b-button>
                 </div>
             </div>
         </b-carousel>

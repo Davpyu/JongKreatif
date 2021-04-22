@@ -1,9 +1,9 @@
 <template>
-    <div class="p-2 d-flex justify-content-center">
+    <div class="p-2 d-flex">
         <div
-            class="mr-4" 
+            class="flex-shrink-0 w-1 mr-4" 
             v-if="item.position === 'left'"
-            :class="{ 'bg-danger w-4': item.active === true, 'bg-dark text-opacity-10 w-px': item.active === false }"
+            :class="{ 'bg-danger': item.active === true, 'bg-dark opacity-10': item.active === false }"
         ></div>
         <div>
             <h5 class="text-left font-weight-bold text-nunito">
@@ -14,9 +14,9 @@
             </p>
         </div>
         <div
-            class="ml-4" 
+            class="flex-shrink-0 w-1 ml-4" 
             v-if="item.position === 'right'"
-            :class="{ 'bg-danger w-4': item.active === true, 'bg-dark text-opacity-10 w-px': item.active === false }"
+            :class="{ 'bg-danger': item.active === true, 'bg-dark opacity-10': item.active === false }"
         ></div>
     </div>
 </template>
@@ -28,11 +28,11 @@ export default {
 </script>
 
 <style scoped>
-    .w-4 {
-        width: 1rem;
+    .w-1 {
+        width: 0.25rem;
     }
 
-    .w-px {
-        width: 5.58px;
+    .flex-shrink-0 {
+        flex-shrink: 0;
     }
 </style>

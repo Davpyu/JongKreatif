@@ -1,6 +1,6 @@
 <template>
-    <div class="p-2 text-center col-4">
-        <div class="p-3 border rounded border-danger">
+    <div class="p-2 text-center col-sm-6 col-lg-4">
+        <div class="p-3 border rounded-2xl border-danger">
             <h4 class="text-baloo font-weight-bold">
                 Belajar Langsung dari Expert
             </h4>
